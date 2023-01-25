@@ -12,17 +12,18 @@ namespace Api_Training_Swagger.Controllers
     public class SimpleController : Controller
     {
         private readonly DetailsDb _db;
+       // private List<string> _myList = new List<string>();
         public SimpleController(DetailsDb details) 
         {
             this._db = details;
         }
-         
         [HttpGet("getData")]
-       // [MapToApiVersion("2.0")]
+        // [MapToApiVersion("2.0")]
         public string getData()
         {
            return "Connection astablished";
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> Data(int id)
         {
