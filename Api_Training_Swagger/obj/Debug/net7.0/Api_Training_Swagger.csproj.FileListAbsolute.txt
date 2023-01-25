@@ -367,3 +367,4 @@ C:\Users\Ben Sella\Desktop\Wayo\WebDev\Fifth_Try\Api_Training_Swagger\Api_Traini
 C:\Users\Ben Sella\Desktop\Wayo\WebDev\Fifth_Try\Api_Training_Swagger\Api_Training_Swagger\obj\Debug\net7.0\Api_Training_Swagger.pdb
 C:\Users\Ben Sella\Desktop\Wayo\WebDev\Fifth_Try\Api_Training_Swagger\Api_Training_Swagger\obj\Debug\net7.0\Api_Training_Swagger.genruntimeconfig.cache
 C:\Users\Ben Sella\Desktop\Wayo\WebDev\Fifth_Try\Api_Training_Swagger\Api_Training_Swagger\obj\Debug\net7.0\ref\Api_Training_Swagger.dll
+C:\Users\Ben Sella\Desktop\Wayo\WebDev\Fifth_Try\Api_Training_Swagger\Api_Training_Swagger\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll

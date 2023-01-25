@@ -36,6 +36,7 @@
       "Api_Training_Swagger/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.2",
+          "Microsoft.AspNetCore.Mvc.Versioning": "5.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.2",
           "Swashbuckle.AspNetCore": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0",
@@ -372,6 +373,17 @@
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning/5.0.0": {
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.7710.5690"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
@@ -2487,6 +2499,13 @@
       "sha512": "sha512-rI04vVCJmxAaBf1ickJFDc/q9Ne2n/4A176D53QV6rRJK+5GAt45aHQ3gYfB07xtpWvvfOpBQPREBnWovU9dbQ==",
       "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.2",
       "hashPath": "microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mN9IARvNpHMBD2/oGmp5Bxp1Dg45Hfcp+LWaAyTtL2HisWLMOIcf0Ox1qW9IvCvdbHM+2A9dWEInhiqBsNxsJA==",
+      "path": "microsoft.aspnetcore.mvc.versioning/5.0.0",
+      "hashPath": "microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "type": "package",

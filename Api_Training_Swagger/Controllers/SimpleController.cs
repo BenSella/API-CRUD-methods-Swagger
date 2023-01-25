@@ -3,21 +3,26 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api_Training_Swagger.Controllers
 {
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    [Route("[controller]")]
+    [ApiVersion("1.0")]//, Deprecated = true)]
+    [ApiVersion("1.1")]//, Deprecated = true)]
+    [ApiVersion("2.0")]
+
     public class SimpleController : Controller
     {
         private readonly DetailsDb _db;
-        public SimpleController(DetailsDb details)
+        public SimpleController(DetailsDb details) 
         {
             this._db = details;
         }
+         
         [HttpGet("getData")]
+       // [MapToApiVersion("2.0")]
         public string getData()
         {
-            return "Connection astablished";
+           return "Connection astablished";
         }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> Data(int id)
         {
